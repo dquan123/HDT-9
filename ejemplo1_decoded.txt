@@ -1,1 +1,1 @@
-Esta es una prueba del archivo que se debe comprimir
+Prueba de conversor del algoritmo de Huffman con la hoja ya terminadao

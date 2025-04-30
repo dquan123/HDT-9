@@ -46,7 +46,6 @@ public class Main {
                 }
 
             } else if (opcion.equals("3")) {
-                System.out.println("Saliendo. ¡Hasta luego!");
                 break;
             } else {
                 System.out.println("Opción no válida, intente nuevamente.");
