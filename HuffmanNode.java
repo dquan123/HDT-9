@@ -1,12 +1,10 @@
-package huffman.model;
-
 public class HuffmanNode implements Comparable<HuffmanNode> {
-    public final char character;      // válido si isLeaf
+    public final char character;      
     public final int frequency;
     public final HuffmanNode left, right;
     public final boolean isLeaf;
 
-    // Constructor para hoja
+    // Hoja
     public HuffmanNode(char character, int frequency) {
         this.character = character;
         this.frequency = frequency;
@@ -14,7 +12,7 @@ public class HuffmanNode implements Comparable<HuffmanNode> {
         this.isLeaf = true;
     }
 
-    // Constructor para nodo interno
+    // Nodo interno
     public HuffmanNode(HuffmanNode left, HuffmanNode right) {
         this.character = '\0';
         this.frequency = left.frequency + right.frequency;
